@@ -62,10 +62,10 @@
 }
 
 .slider {
-    background: url(./images/hatsune_miku2.jpg) no-repeat;
+    background: url(../images/hatsune_miku2.png) no-repeat;
     background-size: cover;
     background-position: center center;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100px);
 }
 
 @media (max-width: 952px) {
@@ -115,7 +115,7 @@
     }
 
     .slider {
-        background: url(./images/hatsune_movil.jpg);
+        background: url(../images/hatsune_movil.png);
         background-size: cover;
         background-position: center center;
     }
