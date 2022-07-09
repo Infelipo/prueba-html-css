@@ -20,7 +20,7 @@
     height: 90px;
 }
 
-.navegacion__lista {
+.navegacion__lista { 
     float: right;
     margin-right: 20px;
 }
@@ -28,7 +28,7 @@
 .navegacion__item-lista { 
     display: inline-block;
     line-height: 100px;
-    margin: 0 10px;
+    margin: 0px 10px;
 }
 
 .navegacion__item-link {
@@ -36,13 +36,13 @@
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;  
-    padding: 10px 15px; 
-    border: 1px solid #86cecb; 
-    border-radius: 10px;
+    padding: 10px 15px;  
+    border: 1px solid #86cecb;
+    border-radius: 10px;       
 }
 
-.navegacion__item-link.navegacion__active, .navegacion__item-link:hover {
-    background: #86cecb;
+.navegacion__item-link.navegaction__active, .navegacion__item-link:hover {
+    background: #86cecb;    
     color: #fff;
     transition: .5s;
 }
@@ -62,7 +62,7 @@
 }
 
 .slider {
-    background: url(../images/hatsune_miku2.png) no-repeat;
+    background: url(../images/IA_slider.png) no-repeat;
     background-size: cover;
     background-position: center center;
     height: calc(100vh - 100px);
@@ -115,7 +115,7 @@
     }
 
     .slider {
-        background: url(../images/hatsune-movil.png);
+        background: url(../images/IA_movil.png);
         background-size: cover;
         background-position: center center;
     }
