@@ -133,4 +133,18 @@
         background-position: center center;
     }
 
+    .rodapie { 
+        position: relative;
+        height: 80px;
+        text-align: center;
+        color: #86cecb;
+        background: #2c3e50;
+    }
+
+    .rodapie__parrafo { 
+        position: absolute;
+        top: 30px;     
+        left: 0px;
+    }
+
 }
